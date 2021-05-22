@@ -43,9 +43,9 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about">Article</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/')}}">Home</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/artikel')}}" class="active">Article</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/contact')}}">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -60,20 +60,28 @@
 <div class="welcome-area" id="welcome">
 
 <!-- ***** Header Text Start ***** -->
-<div class="header-text">
-    <div class="container">
-        <div class="row">
-            <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <h1>Tugas Praktikum <strong>P.T.W</strong></h1>
-                <p>ini adalah tugas praktikum pengembangan teknologi web</p>
-                <a href="#about" class="main-button-slider">Contact me</a>
+<section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                    <div class="left-heading">
+                        <h5>Javascript</h5>
+                    </div>
+                    <div class="left-text">
+                        <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                <!-- <img src="assets/images/slider-icon.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic"> -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 <!-- ***** Header Text End ***** -->
 </div>
 
